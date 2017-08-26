@@ -1,0 +1,21 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.navigation {
+	text-align: center;
+}
+
+h1, h2, p {
+	text-align: center;
+}
+
+h1{ color: gray; 
+	font-size: "25"}
+
+h2{ color: navy;}
+
+body {
+background-color: rgb(123,177,220);
+}
