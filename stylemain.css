@@ -11,6 +11,8 @@ h1, h2, p {
 	text-align: center;
 }
 
+p.dotted { border-style: dashed; }
+
 h1{ color: gray; 
 	font-size: "25"}
 
