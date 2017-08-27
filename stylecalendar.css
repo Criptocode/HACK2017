@@ -33,12 +33,14 @@ h1, p {
 .names {
 	width: 100px;
 	background-color: pink;
-	margin-left: 150px;
+	margin-left: 190px;
 	padding-top: 50px;
 }
 
 #desc {
 	width: 1200px;
+	text-align: justify;
+    text-justify: inter-word;
 }
 
 .names, p {
@@ -65,12 +67,18 @@ h1, p {
 	background-color: purple;
 }
 
+.points {
+	width: 150px;
+	height: 10px;
+	background-color: orange; 
+}
+
 #topicsTitle {
 	margin-top: 25px;
 }
 
 #list {
-	margin-left: 150px;
+	margin-left: 110px;
 	line-height: 180%;
 	font-size: 20px;
 }
