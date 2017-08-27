@@ -10,7 +10,10 @@ h1, p {
 .header {
 	height: 300px;
 	text-align: center;
-	background-color: green;
+	background-image: url("images/blueBackground3.jpg");
+	background-repeat: no-repeat;
+	/*background-size: 99%  362px;*/
+	background-size: cover;
 }
 
 .profileImage {
@@ -18,7 +21,6 @@ h1, p {
 }
 
 #profileID {
-	background-color: red;
 }
 
 .stars {
@@ -27,25 +29,27 @@ h1, p {
 }
 
 #starsID {
-	background-color: blue;
+	
 }
 
 .names {
 	width: 100px;
-	background-color: pink;
 	margin-left: 190px;
 	padding-top: 50px;
+
 }
 
 #desc {
-	width: 1200px;
+	width: 1900px;
 	text-align: justify;
     text-justify: inter-word;
+    font-size: 20px;
 }
 
 .names, p {
 	width: 250px;
 	line-height: 180%;
+	color: white;
 }
 
 .logoTec, .logoGit {
@@ -64,17 +68,21 @@ h1, p {
 	height: 1000px;
 	width: 100%;
 	position: absolute;
-	background-color: purple;
+	/*background-color: purple;*/
+	background-image: url("images/backgroundTec.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .points {
 	width: 150px;
 	height: 10px;
-	background-color: orange; 
+	color: white;
 }
 
 #topicsTitle {
 	margin-top: 25px;
+	font-size: 30px;
 }
 
 #list {
@@ -87,6 +95,10 @@ h1, p {
 	margin-top: 75px;
 	margin-left: 150px;
 	text-align: center;
+}
+
+#calendarTitle {
+	font-size: 80px;
 }
 
 .dropdown {
@@ -111,6 +123,10 @@ h1, p {
 
 .dropdown-content, p {
 	font-size: 15px;
+}
+
+#interview {
+	color: black;
 }
 
 .dropdown:hover .dropdown-content {
