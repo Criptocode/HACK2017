@@ -59,6 +59,25 @@ h1, p {
 }
 
 .content {
-	height: 500px;
+	height: 100%;
+	width: 100%;
+	position: absolute;
 	background-color: purple;
 }
+
+#topicsTitle {
+	margin-top: 25px;
+}
+
+#list {
+	margin-left: 150px;
+	line-height: 180%;
+	font-size: 20px;
+}
+
+.calendar {
+	margin-top: 75px;
+	margin-left: 150px;
+	text-align: center;
+}
+
