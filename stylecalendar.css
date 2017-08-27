@@ -3,15 +3,45 @@
 	padding: 0px;
 }
 
+h1, p {
+	font-family: sans-serif;
+}
+
 .header {
 	height: 250px;
 	text-align: center;
-	text-transform: uppercase;
 	background-color: green;
 }
 
-#profileImage {
-	margin-top: 30px;
+.profileImage {
+	position: relative;
+}
+
+#profileID {
 	background-color: red;
 }
 
+.stars {
+	width: 150px;
+	position: relative;
+}
+
+#starsID {
+	background-color: blue;
+}
+
+.names {
+	width: 200px;
+	background-color: pink;
+	margin-left: 150px;
+	padding-top: 50px;
+}
+
+.names, p {
+	width: 250px;
+	line-height: 180%;
+}
+
+.logoTec {
+	margin-left: 25px;
+}
