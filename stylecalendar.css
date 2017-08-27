@@ -1,10 +1,11 @@
 * {
 	margin: 0px;
 	padding: 0px;
+	font-family: courier;
 }
 
 h1, p {
-	font-family: sans-serif;
+	
 }
 
 .header {
@@ -92,7 +93,7 @@ h1, p {
 }
 
 .calendar {
-	margin-top: 75px;
+	margin-top: 100px;
 	margin-left: 150px;
 	text-align: center;
 }
@@ -104,6 +105,7 @@ h1, p {
 .dropdown {
     position: relative;
     display: inline-block;
+    position: fixed;
 }
 
 .dropdown, span {
@@ -121,14 +123,16 @@ h1, p {
     z-index: 1;
 }
 
-.dropdown-content, p {
-	font-size: 15px;
-}
-
-#interview {
+.dropdown-content p{
+	font-size: 25px;
 	color: black;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+
+#upcoming {
+	right: 0px;
 }
