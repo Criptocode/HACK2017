@@ -10,17 +10,34 @@
 h1, h2, p {
 	text-align: center;
 	}
+
+p {
+	color: white;
+	background-color: grey;
+	
+}
  
 h1{ color: navy	; 
-	font-size: 35px}
+	font-size: 35px
+	
+}
 
 h2{ color: navy;
 	font-size: 18px;
-	/*background-color: grey;*/}
+	}
+	
 	#RegisterButton{
 
-		color: green;
+	color: grey;
+	font-family: courier;
+	font-size: 30px;
+    width:200px;
+    margin: auto;
+    border: 8px dotted grey;
+
 	}
+
+
 body {
 background-color: rgb(123,177,220);
 background-image: url(http://image.posta.com.mx/sites/default/files/tecnologicodemonterreyaniversario-1.jpg);
