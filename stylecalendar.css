@@ -8,7 +8,7 @@ h1, p {
 }
 
 .header {
-	height: 250px;
+	height: 300px;
 	text-align: center;
 	background-color: green;
 }
@@ -31,15 +31,23 @@ h1, p {
 }
 
 .names {
-	width: 200px;
+	width: 100px;
 	background-color: pink;
 	margin-left: 150px;
 	padding-top: 50px;
 }
 
+#desc {
+	width: 1200px;
+}
+
 .names, p {
 	width: 250px;
 	line-height: 180%;
+}
+
+.logoTec, .logoGit {
+	margin-top: 15px;
 }
 
 .logoTec {
@@ -48,4 +56,9 @@ h1, p {
 
 .logoGit {
 	margin-left: 290px;
+}
+
+.content {
+	height: 500px;
+	background-color: purple;
 }
