@@ -1,0 +1,26 @@
+.contact{
+	width : 30%;
+}
+
+.list{
+	text-align : center;
+}
+
+li.horizontalList{
+	text-align : center;
+	display: inline;
+}
+
+.main_identifier{
+	height: 80px;
+	font-size : 2.5em;
+	font-family: "Comic Sans MS";
+	color: #8a909b;
+}
+
+.contact{
+	padding: 0px; 
+	float: left;
+	background-color : #545556;
+	color : white;
+}
