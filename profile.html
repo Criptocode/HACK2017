@@ -5,15 +5,15 @@
     <title>Profile</title>
   </head>
   <body>
-  <div style = "height:1000px; overflow:hidden; background-color:red">
+  <div class = "biblioback">
 	  <!-- left side -->
 	  <div style = "float: left; width : 50%; text-align : center">
 	    <h2>Navigation controls</h2>
-	    <img src = "images/AppleProfile.jpg", style = "width : 60%">
-	    <h2>ArtArenas</h2>
-	    <h2 class = "main_identifier">Arturo Arenas</h2>
-	    <img src = "stars.png", style = "width : 25%">
-	    <h2 class = "main_identifier">Tencologico de Monterrey</h2>
+	    <img src = "images/profile.png", style = "width : 30%">
+	    <img class = "stars", src = "images/stars.png">
+	    <h2 style = "font-size: 2.5em; margin: 5px">ArtArenas</h2>
+	    <h2 class = "common_labels">Arturo Arenas</h2>
+	    <h2 class = "common_labels">Tecnologico de Monterrey</h2>
 	    <ul class = "list">
 	      <li>Linked Lists</li>
 	      <li>Queues</li>
@@ -26,21 +26,18 @@
 
 	  <!-- right side -->
 	  <div style = "float: right; width : 40%; text-align : center">
-	    <h2>A little bit about myself</h2>
-	    <h3 style = "text-align : left">"I am a mexican student, aspiring to be software engineer by December 2020. I'm interested in learning a broad range of algorithms and data structure implementations."</h3>
-	    <br>
-	    <br>
-	    <br>
-	    <br>
-	    <br>
-	    <br>
-	    <h2>Confirm Request</h2>
-	    <h5>August 30, 2017 (Wednesday)
-	    <h5>5:00pm - 6:00pm</h5>
+	    <h2 style = "text-align : center">A little bit about myself</h2>
+	    <h3 class = "quote">"I am a mexican student, aspiring to be software engineer by December 2020. I'm interested in learning a broad range of algorithms and data structure implementations."
+	    </h3>
+	    <div class = "further_info">
+		    <h2>Confirm Request</h2>
+		    <h5>August 30, 2017 (Wednesday)</h5>
+		    <h5>5:00pm - 6:00pm</h5>
+	    </div>
 	    <br>
 	    <br>
 	    <form action = "calendar.html">
-	      <input type = "submit", value = "Confirm"/>
+	      <input class = "button", type = "submit", value = "Confirm"/>
 	    </form>
 	  </div>
   </div>
