@@ -9,17 +9,23 @@
 
 h1, h2, p {
 	text-align: center;
-	font-family: "Arial Light";
 	}
  
 h1{ color: navy	; 
-	font-size: "25"}
+	font-size: 35px}
 
 h2{ color: navy;
+	font-size: 18px;
 	/*background-color: grey;*/}
+	#RegisterButton{
 
+		color: green;
+	}
 body {
 background-color: rgb(123,177,220);
+background-image: url(http://image.posta.com.mx/sites/default/files/tecnologicodemonterreyaniversario-1.jpg);
+background-repeat:no-repeat;
+   background-size:cover;
 align-items: center;
 
 .header {
